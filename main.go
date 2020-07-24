@@ -53,7 +53,8 @@ import (
 	"os"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/lubanproj/protoc-gen-gorpc/generator"
+
+	"github.com/encircles/protoc-gen-leerpc0/generator"
 
 	_ "github.com/encircles/protoc-gen-leerpc0/plugin/leerpc0"
 )

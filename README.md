@@ -1,5 +1,5 @@
-# protoc-gen-gorpc
-protocol file generation tool for gorpc
+# protoc-gen-leerpc0
+protocol file generation tool for leerpc0
 
 ## Install
 
@@ -13,7 +13,7 @@ protocol file generation tool for gorpc
 3. Run the following command in the terminal to install protoc-gen-gorpc
 
     ```sh
-    go get -u -v github.com/lubanproj/protoc-gen-gorpc
+    go get -u -v github.com/encircles/protoc-gen-leerpc0
     ```
 
 ### Quick Start
@@ -40,7 +40,7 @@ protocol file generation tool for gorpc
 2. Run the following command to generate the pb.go file
 
     ```sh
-    protoc --gorpc_out=plugin:. greeter.proto
+    protoc --leerpc0_out=plugin:. greeter.proto
     ```
 
    A file greeter.pb.go is generated.
